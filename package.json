@@ -1,0 +1,49 @@
+{
+  "name": "binder_template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lexical/clipboard": "0.21.0",
+    "@lexical/code": "0.21.0",
+    "@lexical/file": "0.21.0",
+    "@lexical/hashtag": "0.21.0",
+    "@lexical/link": "0.21.0",
+    "@lexical/list": "0.21.0",
+    "@lexical/mark": "0.21.0",
+    "@lexical/overflow": "0.21.0",
+    "@lexical/plain-text": "0.21.0",
+    "@lexical/react": "0.21.0",
+    "@lexical/rich-text": "0.21.0",
+    "@lexical/selection": "0.21.0",
+    "@lexical/table": "0.21.0",
+    "@lexical/utils": "0.21.0",
+    "katex": "^0.16.10",
+    "lexical": "0.21.0",
+    "lodash-es": "^4.17.21",
+    "prettier": "^3.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^3.1.4",
+    "y-websocket": "^1.5.4",
+    "yjs": ">=13.5.42"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "vite": "^6.0.5"
+  }
+}
